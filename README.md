@@ -43,3 +43,7 @@ cargo run --release -- --next R < input
 ```
 
 See `--help` for more details!
+
+## Hint...
+
+Hare (Rabbit) can always win!
