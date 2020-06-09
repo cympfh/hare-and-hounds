@@ -6,10 +6,13 @@ use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
 pub struct Opt {
+    /// noisy printing
     #[structopt(short, long)]
     verbose: bool,
+    /// left <-> right
     #[structopt(short, long)]
     mirror: bool,
+    /// next player ('D' or 'R')
     #[structopt(short, long)]
     next: String,
 }

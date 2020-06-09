@@ -38,8 +38,8 @@ D-.-.-.-R
 ### Solver
 
 ```bash
-cargo run -- --next D < input
-cargo run -- --next R < input
+cargo run --release -- --next D < input
+cargo run --release -- --next R < input
 ```
 
 See `--help` for more details!
